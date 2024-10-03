@@ -1,7 +1,7 @@
-import 'package:graphviz2/src/language/edge_op.dart';
-import 'package:graphviz2/src/language/statement.dart';
-import 'package:graphviz2/src/language/stmt_list.dart';
-import 'package:graphviz2/src/util.dart';
+import 'package:dot/src/language/edge_op.dart';
+import 'package:dot/src/language/statement.dart';
+import 'package:dot/src/language/stmt_list.dart';
+import 'package:dot/src/util.dart';
 
 /// The type of a graph.
 enum GraphType {
