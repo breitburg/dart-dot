@@ -1,5 +1,5 @@
 /// A library for parsing & creating Graphviz Dot files.
-library graphviz;
+library dot;
 
 export 'src/dot_grammar.dart';
 export 'src/parser.dart';

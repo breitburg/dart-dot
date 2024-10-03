@@ -1,4 +1,4 @@
-name: graphviz2
+name: dot
 description: A library for parsing & creating Graphviz Dot files.
 version: 1.0.0
 repository: https://github.com/abitofevrything/graphviz

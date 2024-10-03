@@ -1,6 +1,6 @@
-# Graphviz2 Library
+# Dot Library
 
-Graphviz2 is a simple library for parsing and creating [Graphviz](https://graphviz.org/) graphs in the Dot Language. This library allows you to programmatically create and manipulate Graphviz graphs, as well as parse existing Dot Language strings into graph objects.
+Dot is a simple library for parsing and creating [Graphviz](https://graphviz.org/) graphs in the Dot Language. This library allows you to programmatically create and manipulate Graphviz graphs, as well as parse existing Dot Language strings into graph objects.
 
 ## Features
 
@@ -11,11 +11,11 @@ Graphviz2 is a simple library for parsing and creating [Graphviz](https://graphv
 
 ## Installation
 
-To use Graphviz2 in your Dart project, add the following dependency to your `pubspec.yaml` file:
+To use Dot in your Dart project, add the following dependency to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  graphviz2: ^1.0.0
+  dot: ^1.0.0
 ```
 
 Then, run `pub get` to install the package.
@@ -27,7 +27,7 @@ Then, run `pub get` to install the package.
 You can parse a Graphviz graph from a Dot Language string using the `DotParser` class. Here's an example:
 
 ```dart
-import 'package:graphviz2/graphviz2.dart';
+import 'package:dot/dot.dart';
 
 void main() {
   final parser = DotParser();
@@ -49,7 +49,7 @@ void main() {
 You can also create a Graphviz graph programmatically using the `Graph` class. Here's an example:
 
 ```dart
-import 'package:graphviz2/graphviz2.dart';
+import 'package:dot/dot.dart';
 
 void main() {
   final graph = Graph.create(
@@ -71,7 +71,7 @@ void main() {
 You can add nodes and edges to a graph using the `NodeStatement` and `EdgeStatement` classes. Here's an example:
 
 ```dart
-import 'package:graphviz2/graphviz2.dart';
+import 'package:dot/dot.dart';
 
 void main() {
   final graph = Graph.fromStatements(
@@ -97,7 +97,7 @@ void main() {
 You can convert a graph object back into a Dot Language string using the `toString` method. Here's an example:
 
 ```dart
-import 'package:graphviz2/graphviz2.dart';
+import 'package:dot/dot.dart';
 
 void main() {
   final graph = Graph.create(
@@ -121,7 +121,7 @@ You can find more examples in the `examples/` directory. These examples demonstr
 
 ## Contributing
 
-Contributions are welcome! If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/breitburg/graphviz).
+Contributions are welcome! If you find a bug or have a feature request, please open an issue on the [GitHub repository](https://github.com/breitburg/dot).
 
 ## License
 

@@ -1,15 +1,15 @@
-import 'package:graphviz2/src/dot_grammar.dart';
-import 'package:graphviz2/src/language/a_list.dart';
-import 'package:graphviz2/src/language/attr_list.dart';
-import 'package:graphviz2/src/language/compass_pt.dart';
-import 'package:graphviz2/src/language/edge_op.dart';
-import 'package:graphviz2/src/language/edge_rhs.dart';
-import 'package:graphviz2/src/language/graph.dart';
-import 'package:graphviz2/src/language/node_id.dart';
-import 'package:graphviz2/src/language/port.dart';
-import 'package:graphviz2/src/language/statement.dart';
-import 'package:graphviz2/src/language/stmt_list.dart';
-import 'package:graphviz2/src/language/subgraph.dart';
+import 'package:dot/src/dot_grammar.dart';
+import 'package:dot/src/language/a_list.dart';
+import 'package:dot/src/language/attr_list.dart';
+import 'package:dot/src/language/compass_pt.dart';
+import 'package:dot/src/language/edge_op.dart';
+import 'package:dot/src/language/edge_rhs.dart';
+import 'package:dot/src/language/graph.dart';
+import 'package:dot/src/language/node_id.dart';
+import 'package:dot/src/language/port.dart';
+import 'package:dot/src/language/statement.dart';
+import 'package:dot/src/language/stmt_list.dart';
+import 'package:dot/src/language/subgraph.dart';
 import 'package:test/test.dart';
 
 import 'utils/parser_matchers.dart';
